@@ -5,6 +5,10 @@
 
 Квалификацию не пересматривать. `validate.md` не открывать. Поля HIVE_статус, HIVE_компания, HIVE_контакт и HIVE_LI_link не менять.
 
+Рабочий документ со строками: таблица [salesnavigator](https://docs.google.com/spreadsheets/d/1Nyi8FhDPsI5KlLFqXpJFMfcANsQMw3QAQhv0IV8JGYI/edit).
+
+Работаем в этой таблице. Читай уже квалифицированные строки оттуда и записывай в те же строки Message, Followup1 и Followup2. Другую таблицу не создавай. Поля HIVE_* и остальные столбцы не меняй.
+
 Это единственная инструкция по сообщениям Hive HR. Другие документы не открывать.
 
 # Этап 2. Создание Message и Followup2

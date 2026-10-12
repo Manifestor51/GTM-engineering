@@ -18,6 +18,8 @@ companies/
 
 Сейчас заведена одна компания, Hive HR. Квалификация лежит в `validate.md`, сообщения в `message.md`. Других компаний нет.
 
+Строки лидов Hive HR лежат в таблице [salesnavigator](https://docs.google.com/spreadsheets/d/1Nyi8FhDPsI5KlLFqXpJFMfcANsQMw3QAQhv0IV8JGYI/edit). Агент работает в этой таблице: читает строки оттуда и записывает результат в те же строки.
+
 Инструкции живут только в этих файлах. Google Doc не открывать и не обновлять.
 
 ## Как поставить задачу
