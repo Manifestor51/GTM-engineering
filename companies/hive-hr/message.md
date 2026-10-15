@@ -78,6 +78,13 @@ LinkedIn на этом этапе не открывать. Тему сообще
 4. CTA на 15 минут.
 Нельзя независимо выбирать случайный hook, случайный кейс и универсальный CTA.
 Все части должны развивать одну тему.
+Порядок предложений, вместе с приветствием:
+1. Приветствие Hi [First Name]!. С прописной.
+2. Персональный hook. Со строчной.
+3. Связь с организационной задачей. С прописной.
+4. HiveHR и один кейс. С прописной.
+5. CTA на 15 минут. Со строчной.
+Со строчной начинаются только второе и последнее: hook и CTA. Приветствие, связь с задачей и предложение про HiveHR начинаются с прописной. Не делай строчными все предложения.
 
 ## 5. Приветствие
 
@@ -90,7 +97,7 @@ Hi [First Name]!
 
 ## 6. Персонализация
 
-Персональный hook и тему Message бери из полей фактов. LinkedIn не открывай.
+Персональный hook и тему Message бери из полей фактов. LinkedIn не открывай. Hook начинается со строчной буквы.
 Приоритет сигналов:
 1. HIVE_публикация. Даты в ячейке нет: там только текст поста, и пустая ячейка уже значит, что на квалификации пост был старше 14 дней или его не было. Если ячейка не пустая, бери этот текст.
 2. HIVE_старт_роли, если роль начата в последние 6 месяцев.
@@ -143,7 +150,7 @@ Hi [First Name]!
   - Touch base.
   - Circle back.
 Персонализация должна объяснять, почему разговор имеет смысл именно этому человеку.
-Также не использовать длинное тире.
+Также не использовать длинное тире. Только обычный дефис.
 
 ## 8. Работа с предположениями
 
@@ -330,15 +337,15 @@ One 150-person client has already run five seasons with us, each focused on a di
 
 ## 13. CTA на 15 минут
 
-CTA должен объяснять, что человек увидит за 15 минут.
+CTA должен объяснять, что человек увидит за 15 минут. Эта часть начинается со строчной буквы.
 Хорошие направления:
-I can show you how we map hidden leaders and critical employee dependencies from real team interactions.
-I can show you how we visualize actual connections between departments rather than formal reporting lines.
-I can walk you through how we surface hidden talent and organizational risk from everyday employee interactions.
+i can show you how we map hidden leaders and critical employee dependencies from real team interactions.
+i can show you how we visualize actual connections between departments rather than formal reporting lines.
+i can walk you through how we surface hidden talent and organizational risk from everyday employee interactions.
 После этого допустимо:
-Worth 15 minutes next week?
-Worth comparing for 15 minutes?
-Open to a 15-minute look?
+worth 15 minutes next week?
+worth comparing for 15 minutes?
+open to a 15-minute look?
 Не использовать:
   - Book a demo.
   - Schedule a meeting.
@@ -359,9 +366,10 @@ Open to a 15-minute look?
 4. Просьба подсказать имя или познакомить.
 Пример логики:
 Hi [Name]!
-[Company] looks like the kind of organization where cross-team connections and hidden expertise can become hard to see as the team grows.
+at [Company], cross-team connections and hidden expertise can become hard to see as the team grows.
 I'm with HiveHR. We map real employee interactions to surface informal leaders, organizational risks and collaboration patterns.
-I suspect this may sit outside your direct remit. Who would be the best person on your People / Culture side to speak with?
+I suspect this may sit outside your direct remit. who would be the best person on your People / Culture side to speak with?
+Со строчной только второе и последнее предложение. Остальные с прописной. В этом примере второе — про компанию, последнее — просьба подсказать человека. Название компании внутри второго предложения не переписывай. Не делай строчными все предложения.
 Не писать:
   - You are not the right person.
   - Can you forward me to HR?
@@ -387,8 +395,9 @@ I suspect this may sit outside your direct remit. Who would be the best person o
 новая мысль по той же теме -> как HiveHR это показывает -> приглашение посмотреть за 15 минут
 Пример:
 One more thought - formal org charts show responsibility, but they rarely show who the team actually depends on day to day.
-That is exactly what we map through real employee interactions.
-Happy to show you what this looks like in practice. Worth 15 minutes next week?
+that is exactly what we map through real employee interactions.
+Happy to show you what this looks like in practice. worth 15 minutes next week?
+По порядку предложений этого текста со строчной только второе и последнее. Остальные с прописной. Не делай строчными все предложения.
 Для статуса Возможно подходит сохранять более осторожные формулировки и не усиливать предположения.
 
 ## 16. Followup2 для статуса "Нужен другой контакт"
@@ -404,7 +413,8 @@ Happy to show you what this looks like in practice. Worth 15 minutes next week?
   - закончить простой просьбой подсказать имя или подходящего коллегу.
 Пример логики:
 One more thought - the reason I asked is that we work with People teams on mapping real employee interactions, hidden leaders and cross-team dependencies.
-Would you know who on your People / Culture side would be closest to this?
+would you know who on your People / Culture side would be closest to this?
+Со строчной только второе и последнее предложение. Здесь второе и есть последнее. Первое с прописной. Не делай строчными все предложения.
 
 ## 17. Стиль и длина
 
@@ -424,7 +434,7 @@ Referral Message может быть короче.
 Followup2:
   - для Подходит / Возможно подходит - 40-70 слов;
   - для Нужен другой контакт - может быть короче, если мысль полностью передана.
-Использовать короткие абзацы.
+Разделять текст абзацами, чтобы его было удобно читать. Использовать короткие абзацы.
 Текст должен легко читаться с телефона и выглядеть написанным конкретному человеку, а не массовой AI-рассылкой.
 
 ## 18. Что нельзя писать получателю
@@ -478,8 +488,10 @@ Followup2:
 11. Message не пытается продать пилот?
 12. В Message нет ссылки?
 13. Message укладывается в нужную длину?
-14. Есть короткие читаемые абзацы?
-15. Нет шаблонного SDR / AI-языка?
+14. Текст разделён абзацами, чтобы его было удобно читать? Абзацы короткие?
+15. Нет длинного тире, только обычный дефис?
+16. Нет шаблонного SDR / AI-языка?
+17. Со строчной только второе и последнее предложение? Для Подходит и Возможно подходит это hook и CTA, а приветствие, связь с задачей и HiveHR с прописной? Для referral со строчной только второе и последнее, остальные с прописной?
 Для статуса Нужен другой контакт вместо CTA на 15 минут проверить, что Message заканчивается корректной просьбой подсказать релевантного человека.
 
 ## 22. Самопроверка Followup2
@@ -493,11 +505,15 @@ Followup2:
 6. Текст заканчивается легким CTA на 15 минут?
 7. Нет ссылок, Calendly и давления?
 8. Длина 40-70 слов?
+9. Текст разделён абзацами и в нём нет длинного тире, только обычный дефис?
+10. Со строчной только второе и последнее предложение, остальные с прописной?
 Для статуса Нужен другой контакт проверить:
 1. Followup2 продолжает referral-логику?
 2. Он не предлагает текущему человеку звонок?
 3. Он не давит и не требует пересылки?
 4. Он заканчивается просьбой подсказать подходящего People / HR контакта?
+5. Текст разделён абзацами и в нём нет длинного тире, только обычный дефис?
+6. Со строчной только второе и последнее предложение, остальные с прописной?
 
 ## 23. Когда работа считается завершенной
 
@@ -518,6 +534,11 @@ Followup2:
 
 ## 24. Форматирование
 
+Разделять текст Message и Followup2 абзацами, чтобы его было удобно читать.
 Использовать дополнительные абзацы для разделения смысловых частей.
 Не превращать Message или Followup2 в один длинный абзац.
-Не использовать длинное тире.
+Не использовать длинное тире. Только обычный дефис.
+Со строчной буквы начинаются только второе и последнее предложение. Остальные с прописной. Не делай строчными все предложения.
+Для Message со статусами Подходит и Возможно подходит это hook и CTA. Приветствие Hi [First Name]!, связь с организационной задачей и предложение про HiveHR начинаются с прописной.
+Для Followup2 со статусами Подходит и Возможно подходит то же по порядку предложений этого текста: со строчной только второе и последнее.
+Для referral Message и referral Followup2 то же: второе и последнее предложение со строчной, остальные с прописной.
