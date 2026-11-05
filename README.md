@@ -15,14 +15,20 @@ companies/
     AGENTS.md                  напоминание внутри папки компании
     validate.md                квалификация лида
     message.md                 Message и Followup2
+  refurbishbox/
+    AGENTS.md                  границы этапов и рабочая таблица
+    validate.md                бренд, товары, US-продажи, возвраты, контакт
+    message.md                 Message, Followup1, Followup2
   _template/                   пустой каркас следующей компании
 ```
 
-Сейчас заведена одна компания, Hive HR. Квалификация лежит в `validate.md`, сообщения в `message.md`. Других компаний нет.
+Заведены Hive HR и RefurbishBox. Для каждой компании есть отдельные `validate.md` и `message.md`. RefurbishBox пока ожидает первый экспорт Sales Navigator и согласование заголовков, поэтому его обработка строк заблокирована.
 
 Строки лидов Hive HR лежат в таблице [salesnavigator](https://docs.google.com/spreadsheets/d/1Nyi8FhDPsI5KlLFqXpJFMfcANsQMw3QAQhv0IV8JGYI/edit). Агент работает в этой таблице: читает строки оттуда и записывает результат в те же строки. Столбец ищет по заголовку, чужие столбцы не меняет. На квалификации ссылку профиля пишет в `HIVE_LI_link` только если ячейка пустая, а факты для письма в `HIVE_публикация`, `HIVE_старт_роли`, `HIVE_зона`, `HIVE_опыт` и `HIVE_инициатива`. Этап сообщений LinkedIn не открывает. Sales Navigator не открывает. Начинает с незаполненных строк и не переписывает уже заполненные.
 
 Инструкции живут только в этих файлах. Google Doc не открывать и не обновлять.
+
+Рабочая таблица RefurbishBox: [Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0). В ней исходные заголовки будут определены после первого экспорта; до этого никакие исходные поля не предполагаются.
 
 ## Как поставить задачу
 
@@ -30,6 +36,8 @@ companies/
 
 - «Квалифицируй лид для Hive HR» открывает `companies/hive-hr/validate.md`.
 - «Напиши Message и Followup2 для Hive HR» открывает `companies/hive-hr/message.md`.
+- «Квалифицируй лид для RefurbishBox» открывает `companies/refurbishbox/validate.md`.
+- «Напиши сообщения для RefurbishBox» открывает `companies/refurbishbox/message.md`.
 
 Агент квалификации не пишет письма. Агент писем не пересматривает статус.
 
