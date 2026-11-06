@@ -40,7 +40,7 @@
 
 ## Рабочий документ RefurbishBox
 
-Лиды RefurbishBox будут храниться в [отдельной Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0). Заголовки исходных столбцов появятся после первого экспорта из Sales Navigator; до сверки схемы квалификация и генерация сообщений для этой компании не запускаются. Правила колонок и этапов заданы в companies/refurbishbox/AGENTS.md. Таблицу HiveHR не использовать для RefurbishBox.
+Лиды RefurbishBox уже импортированы из LinkedHelper (Sales Navigator Lead Search) в [отдельную Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0), лист `Лист1`. Исходные столбцы `A:IX` сохранены; `RB_*` находятся в `IY:JW`, а `Message`, `Followup1`, `Followup2` — в `JX:JZ`. Схема подтверждена 2026-11-06; валидацию можно начинать. Правила колонок, mapping людей к компаниям и этапов заданы в `companies/refurbishbox/AGENTS.md` и `validate.md`. Таблицу HiveHR не использовать.
 
 ## Граница этапов
 

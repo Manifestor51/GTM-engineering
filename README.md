@@ -22,13 +22,13 @@ companies/
   _template/                   пустой каркас следующей компании
 ```
 
-Заведены Hive HR и RefurbishBox. Для каждой компании есть отдельные `validate.md` и `message.md`. RefurbishBox пока ожидает первый экспорт Sales Navigator и согласование заголовков, поэтому его обработка строк заблокирована.
+Заведены Hive HR и RefurbishBox. Для каждой компании есть отдельные `validate.md` и `message.md`. RefurbishBox получил первый импорт LinkedHelper из Sales Navigator Lead Search 2026-11-06: 2437 строк людей; исходные `A:IX` сохраняются, рабочие `RB_*` добавлены в `IY:JW`, сообщения — в `JX:JZ`. Квалификация разрешена, но отправка сообщений только после проверки.
 
 Строки лидов Hive HR лежат в таблице [salesnavigator](https://docs.google.com/spreadsheets/d/1Nyi8FhDPsI5KlLFqXpJFMfcANsQMw3QAQhv0IV8JGYI/edit). Агент работает в этой таблице: читает строки оттуда и записывает результат в те же строки. Столбец ищет по заголовку, чужие столбцы не меняет. На квалификации ссылку профиля пишет в `HIVE_LI_link` только если ячейка пустая, а факты для письма в `HIVE_публикация`, `HIVE_старт_роли`, `HIVE_зона`, `HIVE_опыт` и `HIVE_инициатива`. Этап сообщений LinkedIn не открывает. Sales Navigator не открывает. Начинает с незаполненных строк и не переписывает уже заполненные.
 
 Инструкции живут только в этих файлах. Google Doc не открывать и не обновлять.
 
-Рабочая таблица RefurbishBox: [Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0). В ней исходные заголовки будут определены после первого экспорта; до этого никакие исходные поля не предполагаются.
+Рабочая таблица RefurbishBox: [Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0). В `Лист1` фактические исходные заголовки уже определены; mapping к `validate.md` и границы записи описаны в `companies/refurbishbox/AGENTS.md`.
 
 ## Как поставить задачу
 
