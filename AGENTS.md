@@ -28,6 +28,7 @@
 | Компания | Как ещё называют | Папка | Квалификация | Сообщения |
 | --- | --- | --- | --- | --- |
 | Hive HR | HiveHR | `companies/hive-hr` | `companies/hive-hr/validate.md` | `companies/hive-hr/message.md` |
+| RefurbishBox | Refurbishbox | `companies/refurbishbox` | `companies/refurbishbox/validate.md` | `companies/refurbishbox/message.md` |
 
 Компании нет в таблице — работы нет. Правила Hive HR к другой компании не переносятся.
 
@@ -36,6 +37,10 @@
 Строки лидов Hive HR лежат в таблице [salesnavigator](https://docs.google.com/spreadsheets/d/1Nyi8FhDPsI5KlLFqXpJFMfcANsQMw3QAQhv0IV8JGYI/edit).
 
 Работаем в этой таблице: читаем строки оттуда и записываем результат в те же строки. Отдельную таблицу или файл со строками не создаём. Столбец ищи по заголовку в первой строке, не по букве. Чужие столбцы не меняй. Название таблицы не означает вход в Sales Navigator. На квалификации, если `HIVE_LI_link` пустой, ссылку профиля преобразуй в обычный LinkedIn и запиши туда. Если ссылка уже стоит, не перезаписывай её и открой то, что в ячейке. Рядом запиши факты для письма: `HIVE_публикация`, `HIVE_старт_роли`, `HIVE_зона`, `HIVE_опыт`, `HIVE_инициатива`. Этап сообщений LinkedIn не открывает и берёт персонализацию из этих фактов. В таблице есть и заполненные, и пустые строки. Начинай с первой незаполненной и иди вниз. Уже заполненное не переписывай. Какая строка пустая для конкретной задачи, написано в её файле.
+
+## Рабочий документ RefurbishBox
+
+Лиды RefurbishBox будут храниться в [отдельной Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0). Заголовки исходных столбцов появятся после первого экспорта из Sales Navigator; до сверки схемы квалификация и генерация сообщений для этой компании не запускаются. Правила колонок и этапов заданы в companies/refurbishbox/AGENTS.md. Таблицу HiveHR не использовать для RefurbishBox.
 
 ## Граница этапов
 
