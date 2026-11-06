@@ -40,13 +40,13 @@
 
 ## Рабочий документ RefurbishBox
 
-Лиды RefurbishBox уже импортированы из LinkedHelper (Sales Navigator Lead Search) в [отдельную Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0), лист `Лист1`. Исходные столбцы `A:IX` сохранены; `RB_*` находятся в `IY:JW`, а `Message`, `Followup1`, `Followup2` — в `JX:JZ`. Схема подтверждена 2026-11-06; валидацию можно начинать. Правила колонок, mapping людей к компаниям и этапов заданы в `companies/refurbishbox/AGENTS.md` и `validate.md`. Таблицу HiveHR не использовать.
+Лиды RefurbishBox уже импортированы из LinkedHelper (Sales Navigator Lead Search) в [отдельную Google Sheets](https://docs.google.com/spreadsheets/d/1Pn6LWcW3OBHisSamE4Q2tqj1IUQry9SGTZzodYgxhb8/edit?gid=0#gid=0), лист `Лист1`. Исходные столбцы `A:IX` сохранены; после упрощения семь `RB_*` в `IY:JE`, а `Message`, `Followup1`, `Followup2` — в `JF:JH`. `RB_LI_link` в `JE` будет заполнен позднее проверенной публичной ссылкой на профиль из исходного столбца `O`; механически преобразовывать Sales Navigator URL запрещено. Схема подтверждена 2026-11-06; валидацию можно начинать. Правила колонок, mapping людей к компаниям и этапов заданы в `companies/refurbishbox/AGENTS.md` и `validate.md`. Таблицу HiveHR не использовать.
 
 ## Граница этапов
 
 Агент квалификации заполняет только поля, которые перечислены в `validate.md` этой компании. Сообщения он не пишет.
 
-Агент сообщений принимает статус как готовый вход и пишет только то, что задано в `message.md`. Статус, оценку компании и оценку контакта он не меняет, даже если по ходу письма данные кажутся противоречивыми.
+Агент сообщений принимает статус как готовый вход и пишет только то, что задано в `message.md`. Готовый статус и обоснование квалификации он не меняет, даже если по ходу письма данные кажутся противоречивыми.
 
 ## Новая компания
 
